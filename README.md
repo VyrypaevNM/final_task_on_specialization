@@ -13,7 +13,9 @@
  ![4](https://github.com/VyrypaevNM/final_task_on_specialization/assets/135502758/f5e08a51-5123-451a-ab1e-798d42943288)
 
 5.	Выложить историю команд в терминале ubuntu
+
 Task1
+
 mkdir Final_test
 echo ‘dog cat hamster’ > pets
 cat pets
