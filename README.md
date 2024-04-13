@@ -17,24 +17,46 @@
 Task1
 
 mkdir Final_test
+
 echo ‘dog cat hamster’ > pets
+
 cat pets
+
 echo ’horse camel donkey’ > pack_animals
+
 cat pets pack_animals > temp_file
+
 cat temp_file
+
 mv temp_file > human_friend
+
 cat human_friend
+
+
 Task2
+
+
 mkdir task2
+
 mv human_friend ./task2/
+
+
 Task3
+
+
 wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+
 sudo apt update
+
 sudo apt install mysql-server
+
+
 Task4
-wget http://ftp.us.debian.org/debian/pool/main/p/python3-defaults/2to3_3.1![Uploading диаграмма.svg…]()
-1.2-1_all.deb
+
+wget http://ftp.us.debian.org/debian/pool/main/p/python3-defaults/2to3_3.11.2-1_all.deb
+
 sudo dpkg -i 2to3_3.11.2-1_all.deb
+
 sudo dpkg -r 2to3_3.11.2-1_all.deb 
 
 
